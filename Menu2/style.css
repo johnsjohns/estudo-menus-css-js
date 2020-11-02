@@ -16,8 +16,6 @@ nav ul li:nth-child(odd) p{
     opacity: 0.8;
 }
 
-nav ul li p{
-}
 
 nav ul li a{
     display: flex;
