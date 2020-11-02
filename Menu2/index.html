@@ -3,35 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animacao.css">
     <title>Document</title>
 </head>
-<body>
+<body id="corpo">
     <nav>
         <ul>
-            <li>
+            <li id="principal" onClick='menu(this)'>
                 <p>Pagina principal</p>
                 <a href="#">item 1</a>
                 <a href="#">item 2</a>
                 <a href="#">item 3</a>
                 <a href="#">item 4</a>
             </li>
-            <li>
+            <li id="configuracao" onClick='menu(this)'> 
                 <p>Configurações</p>
                 <a href="#">item 1</a>
                 <a href="#">item 2</a>
                 <a href="#">item 3</a>
-                <a href="#">item 4</a>
             </li>
-            <li>
-                <p>Sobre</p>
+            <li onClick='menu(this)'>
+                <p>Sobre </p>
                 <a href="#">item 1</a>
                 <a href="#">item 2</a>
-                <a href="#">item 3</a>
-                <a href="#">item 4</a>
             </li>   
         </ul>
     </nav>
     
 </body>
+    <script src="./js/js.js" type="text/javascript"></script>
 </html>

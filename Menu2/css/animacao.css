@@ -1,0 +1,17 @@
+@keyframes down{
+    from{
+        opacity: 0;
+        transform: scaley(0);
+    }
+
+    to{
+        opacity: 1;
+        transform: scaley(1);
+    }
+}
+
+.animate-down{
+    animation-name: down;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+}
