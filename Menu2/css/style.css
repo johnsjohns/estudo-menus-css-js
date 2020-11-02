@@ -1,12 +1,22 @@
-nav{
-    display: flex;  
+body{
+    height: 90vh;
 }
 
-nav ul{
+aside{
+    display: flex;
+    border: solid 1px;
+    height: 90vh;
+    width: 150px;
+    
+}
+
+aside ul{
+    margin: 0;
     padding: 0;
+    width: 150px;
 }
 
-nav ul li{
+aside ul li{
     display:flex;
     flex-direction: column;
     height: 18px;
@@ -15,12 +25,12 @@ nav ul li{
     transition: 0.3s;
 }
 
-nav ul li p{
+aside ul li p{
     margin: 0;
     background-color: #a3a3a3;
 }    
 
-nav ul li a{
+aside ul li a{
     display: flex;
     transform: scaley(0);
     text-decoration: none;
@@ -28,8 +38,12 @@ nav ul li a{
     
 }
 
-nav ul li a:nth-child(even){
+aside ul li a:nth-child(even){
     background-color: #cbdae6;
+}
+
+aside ul li a:nth-child(odd){
+    background-color: #ffffff;
 }
 
 

@@ -20,7 +20,7 @@ function menu(event){
             event.style.height = altura + "px";
             elemento.classList.add('animate-down');
             elemento.style.animationDelay = time + "ms";
-            time += 130;
+            time += 50;
             
         }
     )    
